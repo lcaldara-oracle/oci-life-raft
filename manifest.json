@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+ 
+  "name": "Hide OCI life raft",
+  "version": "0.1.0",
+  "description": "OCI console life raft is annoying. Let's hide it.",
+ 
+  "content_scripts": [{
+    "css": ["style.css"],
+    "matches": ["https://cloud.oracle.com/*"]
+  }]
+ 
+}
